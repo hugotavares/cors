@@ -22,7 +22,7 @@ int main() {
 
     for(int i = 0; i < LIM; i++) {
         cin >> n;
-        list = *insertionSort(list, n);
+        insertionSort(list, n);
     }
 
     return 0;
